@@ -1,0 +1,13 @@
+.header-banner {
+  background-image: url("../../assets/imgs/page-2/breadcrumb-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 330px;
+  margin-top: 102px;
+}
+
+.header-banner img {
+  top: 70px;
+  right: 25%;
+}

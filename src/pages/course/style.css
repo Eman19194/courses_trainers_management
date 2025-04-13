@@ -1,0 +1,34 @@
+input.course-seearch {
+  padding: 0.7rem;
+}
+
+.course-management-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.bg-blue {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.bg-blue:hover {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  text-decoration: none;
+}
+.bg-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.small-width {
+  max-width: 50%;
+  margin: 0 auto;
+}

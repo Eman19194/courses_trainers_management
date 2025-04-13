@@ -1,0 +1,113 @@
+.form-container {
+  max-width: 450px;
+  padding: 20px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-link {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tab-link.active {
+  color: #007bff;
+  border-top: 2px solid #007bff;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+}
+
+input.input-error {
+  border-color: red;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-container .btn-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form-container .btn-social img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 15px;
+}
+.password-container button {
+  position: absolute;
+  right: 10px; /* Position the icon inside the input */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button stays above the input field */
+}
+.password-container button:hover {
+  background: none; /* Ensure no background when hovering */
+}
+
+.password-container button i {
+  color: black; /* Explicit color for the icon */
+  transition: none; /* Prevent color transition on hover */
+}
+
+.password-container button:hover i {
+  color: black; /* Ensure color stays black even on hover */
+}

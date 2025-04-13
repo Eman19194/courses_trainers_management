@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Sansita+Swashed:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --main-blue: #1268eb;
+  --dark-blue: #08449e;
+  --light-blue: #bbe8eb;
+  --main-red: #d2093c;
+  --light-red: #fdf5f7;
+  --main-black: #1e1e1e;
+  --main-white: #fff;
+  --main-gray: #575757;
+  --secondary-gray: #f5f5f5;
+  --light-purple: #f3f4fd;
+  --star-yellow: #ffa121;
+  --shadowing: 0px 20px 80px rgba(30, 30, 30, 0.1);
+  --main-border-radius: 10px;
+  --button-border-radius: 6px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.tx-blue {
+  color: var(--main-blue);
+}
+
+.tx-black {
+  color: var(--main-black);
+}
+
+.tx-gray {
+  color: var(--main-gray);
+}
+
+.tx-red {
+  color: var(--main-red);
+}
+
+.tx-yellow {
+  color: var(--star-yellow);
+}
+
+.bg-blue {
+  background-color: var(--main-blue);
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.bg-light-red {
+  background-color: var(--light-red);
+}
+
+.bg-gray {
+  background-color: var(--secondary-gray);
+}
+
+.bg-purple {
+  background-color: var(--light-purple);
+}
+
+.box-shadow {
+  box-shadow: var(--shadowing);
+}
+
+.box-radius {
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+}
+
+.button-radius {
+  border-radius: var(--button-border-radius);
+  -webkit-border-radius: var(--button-border-radius);
+  -moz-border-radius: var(--button-border-radius);
+  -ms-border-radius: var(--button-border-radius);
+  -o-border-radius: var(--button-border-radius);
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
